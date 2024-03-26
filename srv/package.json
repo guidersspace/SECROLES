@@ -1,0 +1,11 @@
+{
+    "name": "SECROLES-srv",
+    "dependencies": {
+        "express": "latest",
+        "@sap/xsenv": "latest"
+        ,"@sap/hdbext": "latest"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}

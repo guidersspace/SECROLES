@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "SECROLES.db::sales",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SECROLES.db::sales.csv",
+                "has_header": true,
+                "type_config": {
+                    "delimiter": ",",
+                    "do_quote": true
+                }
+            },
+            "import_settings": {
+                "import_columns": [
+                    "id",
+                    "region",
+                    "country",
+                    "amount"
+                ]
+            }
+        }
+    ]
+}
